@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://diagnostika-auta.sk/sitemap.xml

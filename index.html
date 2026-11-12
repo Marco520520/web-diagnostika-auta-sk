@@ -1,1 +1,158 @@
-<!doctype html><html lang="sk"><head><meta charset="utf-8"><title>autoZ – autoservis Zelman</title><meta http-equiv="refresh" content="0;url=https://www.autoz.sk/"><link rel="canonical" href="https://www.autoz.sk/"><meta name="robots" content="noindex"><script>location.replace("https://www.autoz.sk/")</script></head><body><a href="https://www.autoz.sk/">www.autoz.sk</a></body></html>
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diagnostika auta – čo odhalí a ako prebieha | diagnostika-auta.sk</title>
+<meta name="description" content="Počítačová diagnostika auta: čo odhalí a čo nie, kedy ju robiť, ako prebieha a aký je rozdiel medzi lacnou OBD čítačkou a dielenským testerom.">
+<link rel="canonical" href="https://diagnostika-auta.sk/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://diagnostika-auta.sk/">
+<meta property="og:title" content="Diagnostika auta – čo odhalí a ako prebieha | diagnostika-auta.sk">
+<meta property="og:description" content="Počítačová diagnostika auta: čo odhalí a čo nie, kedy ju robiť, ako prebieha a aký je rozdiel medzi lacnou OBD čítačkou a dielenským testerom.">
+<meta property="og:locale" content="sk_SK">
+<link rel="stylesheet" href="styl.css">
+<style>
+h2{font-size:clamp(22px,3.4vw,28px);line-height:1.25;margin:38px 0 12px}
+h3{font-family:Sora,system-ui,sans-serif;font-size:18px;margin:22px 0 6px;color:var(--zs)}
+.tab{overflow-x:auto;margin:14px 0}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid #232a3c}
+th{color:var(--zs);font-family:Sora,system-ui,sans-serif;font-weight:600;font-size:14px}
+td:first-child{font-weight:700;color:var(--z)}
+.akcie{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+.btn.obr{background:none;border:1px solid var(--zt);color:var(--z)}
+.ot summary{padding:4px 0}.ot p{margin:8px 0 4px;color:#cfd3e2}
+@media(max-width:640px){.st thead{display:none}.st tr{display:block;padding:10px 0;border-bottom:1px solid #232a3c}.st td{display:block;border:0;padding:2px 0;white-space:normal!important}.st td[data-l]::before{content:attr(data-l) ": ";color:var(--tl);font-size:13px}}
+.info p:last-child,.karta p:last-child{margin-bottom:0}
+td:first-child{color:var(--t)}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Čo je diagnostika auta?", "acceptedAnswer": {"@type": "Answer", "text": "Je to pripojenie testera do diagnostickej zásuvky auta, prečítanie chýb a hodnôt zo všetkých riadiacich jednotiek a vyhodnotenie, kde je skutočná príčina problému."}}, {"@type": "Question", "name": "Čo diagnostika neodhalí?", "acceptedAnswer": {"@type": "Answer", "text": "Mechanické opotrebenie, ktoré nesleduje žiadny snímač – napríklad vôle v podvozku, opotrebované tlmiče, hrdzu, úniky kvapalín alebo stav pneumatík. Preto sa spája s prehliadkou a skúšobnou jazdou."}}, {"@type": "Question", "name": "Stačí mi vlastná OBD čítačka?", "acceptedAnswer": {"@type": "Answer", "text": "Na prvú orientáciu áno. Väčšinou však číta len motor a emisie, nevidí kódy výrobcu ani ďalšie jednotky a nedokáže testovať akčné členy ani robiť adaptácie."}}, {"@type": "Question", "name": "Má zmysel diagnostika pred kúpou ojazdeného auta?", "acceptedAnswer": {"@type": "Answer", "text": "Áno. Ukáže uložené chyby vo všetkých jednotkách a stav testov pripravenosti, ktoré môžu prezradiť nedávne vymazanie chýb."}}, {"@type": "Question", "name": "Môžem si chybu pred servisom vymazať?", "acceptedAnswer": {"@type": "Answer", "text": "Neodporúčame to. Vymazaním sa stratí zmrazený rámec a ďalšie údaje, ktoré pomáhajú nájsť príčinu, a chyba sa pri trvajúcej poruche aj tak vráti."}}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "AutoRepair", "name": "autoZ – autoservis Zelman", "telephone": "+421910606999", "url": "https://www.autoz.sk/", "address": {"@type": "PostalAddress", "streetAddress": "gen. M. R. Štefánika 6670/19", "addressLocality": "Trenčín", "postalCode": "911 01", "addressCountry": "SK"}, "openingHours": "Mo-Fr 08:00-16:30"}
+</script>
+</head>
+<body>
+<header class="top">
+<a class="logo" href="/"><b>diagnostika-auta</b><span>.sk</span></a>
+<span class="od">od autoservisu autoZ – Trenčín</span>
+</header>
+<main>
+<section class="hero">
+<h1>Diagnostika auta: <span class="zlato">čo odhalí a ako prebieha</span></h1>
+<p class="lead">Svieti kontrolka, auto stráca výkon alebo kupujete ojazdené? Vysvetľujeme, čo počítačová diagnostika auta dokáže zistiť, kde má hranice a ako sa na ňu pripraviť.</p>
+</section>
+
+<section>
+<h2>Čo je počítačová diagnostika auta</h2>
+<p>Moderné auto riadi niekoľko až desiatky riadiacich jednotiek – motor, prevodovka, ABS, airbagy, klimatizácia, osvetlenie a ďalšie. Každá z nich sleduje svoje snímače a keď zistí odchýlku, uloží chybový kód. Diagnostika auta znamená pripojiť sa k týmto jednotkám cez diagnostickú zásuvku (OBD, zvyčajne pod volantom), prečítať ich záznamy a hodnoty a vyhodnotiť, kde je skutočná príčina problému.</p>
+<p>Dôležité je to slovo <b>vyhodnotiť</b>. Prečítať kód dokáže každý tester, nájsť príčinu si však vyžaduje porovnať živé hodnoty, overiť okruh meraním a poznať, ako sa daný motor správa.</p>
+</section>
+
+<section>
+<h2>Čo diagnostika odhalí</h2>
+<ul class="body">
+<li><b>Uložené chybové kódy</b> vo všetkých riadiacich jednotkách, vrátane občasných chýb, ktoré nerozsvietili kontrolku.</li>
+<li><b>Zmrazený rámec</b> – podmienky v okamihu vzniku chyby (otáčky, teplota, zaťaženie, napätie).</li>
+<li><b>Živé hodnoty</b> – plniaci tlak, tlak paliva, korekcie zmesi, teploty, signál lambda sond, stav filtra pevných častíc a ďalšie.</li>
+<li><b>Testy akčných členov</b> – zapnutie ventilátora, ventilu EGR, vstrekovača či čerpadla na overenie, či reagujú.</li>
+<li><b>Servisné funkcie</b> – nulovanie servisného intervalu, adaptácie po výmene dielov, servisná poloha bŕzd, regenerácia DPF.</li>
+</ul>
+</section>
+
+<section>
+<h2>Čo diagnostika neodhalí</h2>
+<p>Tester vidí len to, čo merajú snímače. Nezistí mechanické opotrebenie, ktoré žiadny snímač nesleduje:</p>
+<ul class="body">
+<li>opotrebované brzdové platničky a kotúče (okrem áut so snímačom opotrebenia),</li>
+<li>vôle v podvozku, opotrebované tlmiče, silentbloky a čapy,</li>
+<li>hrdzu, úniky oleja a kvapalín, stav pneumatík,</li>
+<li>väčšinu zvukov a vibrácií.</li>
+</ul>
+<p>Preto dobrá diagnostika spája prečítanie jednotiek s prehliadkou auta a skúšobnou jazdou.</p>
+</section>
+
+<section>
+<h2>Kedy dať auto na diagnostiku</h2>
+<ul class="body">
+<li>svieti alebo bliká kontrolka motora, ABS, airbagu, prevodovky či iná výstraha,</li>
+<li>auto stratilo výkon, prešlo do núdzového režimu, nepravidelne beží alebo zle štartuje,</li>
+<li>zvýšila sa spotreba alebo sa často spúšťa regenerácia filtra pevných častíc,</li>
+<li>pred kúpou ojazdeného auta – ukáže uložené chyby a podľa testov pripravenosti aj to, či ich niekto nedávno nemazal,</li>
+<li>pred technickou a emisnou kontrolou, aby ste vedeli, či testy pripravenosti a chybová pamäť sú v poriadku,</li>
+<li>po oprave na overenie, že chyba sa už neobjavuje.</li>
+</ul>
+</section>
+
+<section>
+<h2>Ako diagnostika prebieha</h2>
+<ol class="body">
+<li><b>Rozhovor</b> – čo presne auto robí, kedy sa to deje a čo sa na ňom v poslednom období robilo.</li>
+<li><b>Pripojenie testera</b> a prečítanie všetkých riadiacich jednotiek, nie len motora.</li>
+<li><b>Záznam chýb</b> aj so zmrazeným rámcom, aby sa nestratil pri vymazaní.</li>
+<li><b>Overenie</b> – živé hodnoty, testy akčných členov, meranie multimetrom, kontrola kabeláže a konektorov, podľa potreby skúšobná jazda.</li>
+<li><b>Vysvetlenie výsledku</b> – čo je príčina, čo treba opraviť a čo môže počkať.</li>
+<li><b>Po oprave</b> vymazanie chýb a kontrola, že sa nevracajú.</li>
+</ol>
+</section>
+
+<section>
+<h2>Lacná čítačka vs. dielenská diagnostika</h2>
+<div class="tab"><table>
+<thead><tr><th></th><th>Lacná OBD čítačka</th><th>Dielenský tester</th></tr></thead>
+<tbody>
+<tr><td>Riadiace jednotky</td><td>väčšinou len motor a emisie</td><td>všetky jednotky v aute</td></tr>
+<tr><td>Kódy výrobcu</td><td>často nie alebo bez popisu</td><td>áno, s popisom podľa značky</td></tr>
+<tr><td>Živé hodnoty</td><td>základné</td><td>podrobné, aj špecifické pre značku</td></tr>
+<tr><td>Testy akčných členov</td><td>nie</td><td>áno</td></tr>
+<tr><td>Adaptácie, servisné funkcie</td><td>zvyčajne nie</td><td>áno</td></tr>
+<tr><td>Vyhodnotenie</td><td>na vás</td><td>mechanik s praxou na podobných autách</td></tr>
+</tbody>
+</table></div>
+<p>Lacná čítačka je užitočná na prvú orientáciu – zistíte, či ide o motor a aký kód sa uložil. Na nájdenie príčiny a na zásahy do riadiacich jednotiek však nestačí.</p>
+</section>
+
+<section class="info">
+<h2 style="margin-top:0">Čo si pripraviť pred diagnostikou</h2>
+<ul class="body">
+<li>popis príznakov: kedy sa objavujú (za studena, po zahriatí, pri zaťažení, v daždi) a či sa stupňujú,</li>
+<li>fotku kontroliek a hlásení na prístrojovom paneli,</li>
+<li>osvedčenie o evidencii (malý technický preukaz) alebo VIN,</li>
+<li>informáciu, čo sa na aute nedávno opravovalo alebo menilo,</li>
+<li>chybu pred príchodom nemažte – záznam pomôže pri hľadaní príčiny.</li>
+</ul>
+</section>
+
+<section>
+<h2>Časté otázky</h2>
+<details class="ot"><summary><b>Čo je diagnostika auta?</b></summary><p>Je to pripojenie testera do diagnostickej zásuvky auta, prečítanie chýb a hodnôt zo všetkých riadiacich jednotiek a vyhodnotenie, kde je skutočná príčina problému.</p></details>
+<details class="ot"><summary><b>Čo diagnostika neodhalí?</b></summary><p>Mechanické opotrebenie, ktoré nesleduje žiadny snímač – napríklad vôle v podvozku, opotrebované tlmiče, hrdzu, úniky kvapalín alebo stav pneumatík. Preto sa spája s prehliadkou a skúšobnou jazdou.</p></details>
+<details class="ot"><summary><b>Stačí mi vlastná OBD čítačka?</b></summary><p>Na prvú orientáciu áno. Väčšinou však číta len motor a emisie, nevidí kódy výrobcu ani ďalšie jednotky a nedokáže testovať akčné členy ani robiť adaptácie.</p></details>
+<details class="ot"><summary><b>Má zmysel diagnostika pred kúpou ojazdeného auta?</b></summary><p>Áno. Ukáže uložené chyby vo všetkých jednotkách a stav testov pripravenosti, ktoré môžu prezradiť nedávne vymazanie chýb.</p></details>
+<details class="ot"><summary><b>Môžem si chybu pred servisom vymazať?</b></summary><p>Neodporúčame to. Vymazaním sa stratí zmrazený rámec a ďalšie údaje, ktoré pomáhajú nájsť príčinu, a chyba sa pri trvajúcej poruche aj tak vráti.</p></details>
+</section>
+<section class="karta" id="kontakt">
+<h2 style="margin-top:0">autoZ – autoservis Zelman</h2>
+<p>gen. M. R. Štefánika 6670/19, 911 01 Trenčín (pri Kauflande)<br>
+Tel. <a href="tel:+421910606999">0910 606 999</a> · Po–Pi 8:00–16:30<br>
+WhatsApp: <a href="https://wa.me/421910606999">wa.me/421910606999</a></p>
+<div class="akcie">
+<a class="btn" href="tel:+421910606999">Zavolať 0910 606 999</a>
+<a class="btn obr" href="https://www.autoz.sk/rezervacia">Objednať sa online</a>
+</div>
+</section>
+<section>
+<h2>Súvisiace služby autoZ</h2>
+<ul class="body">
+<li><a href="https://www.autoz.sk/diagnostika-auta-trencin">Diagnostika auta v Trenčíne</a></li>
+<li><a href="https://www.autoz.sk/priprava-na-stk-trencin">Príprava na STK</a></li>
+<li><a href="https://www.autoz.sk/autoservis-trencin">Autoservis Trenčín</a></li>
+<li><a href="https://www.autoz.sk/cennik">Cenník</a></li>
+</ul>
+</section>
+</main>
+<footer>Prevádzkuje Auto Zet, s.r.o., IČO 54472091 · <a href="https://www.autoz.sk/">www.autoz.sk</a></footer>
+</body>
+</html>
